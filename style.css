@@ -4,3 +4,6 @@ div{
     background: #ff0000;
     color: aquamarine;
 }
+a:hover{
+    color: blueviolet;
+}
