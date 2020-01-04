@@ -1,7 +1,7 @@
 div{
     color:yellow;
     font-size: 30px;
-    font: weight 800;
+    font-weight:800 ;
     font-family:serif;
     font-style: italic;
     width: 100px;
