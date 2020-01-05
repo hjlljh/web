@@ -1,12 +1,14 @@
-div{
+#div1{
     color:yellow;
     font-size: 30px;
     font-weight:800 ;
     font-family:serif;
     font-style: italic;
-    width: 100px;
-    height: 100px;
+    width: 150px;
+    height: 150px;
     background: #ff0000;
+    box-sizing: border-box;
+    padding:30px 20px 10px 40px;
 }
 a{
     background: #ff0000;
