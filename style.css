@@ -8,7 +8,9 @@ div{
     height: 100px;
     background: #ff0000;
 }
-a:hover{
+a{
     background: #ff0000;
     color: blueviolet;
+    text-decoration: none;
+    line-height: 400px;
 }
