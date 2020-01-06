@@ -1,16 +1,20 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>天猫练习</title>
     <link rel="stylesheet" href="css/common.css">
+    <link rel="stylesheet" href="font/iconfont.css">
     <link rel="stylesheet" href="css/index.css">
 </head>
+
 <body>
     <div class="banner">
-        <a href="https://nianhuo.tmall.com/?spm=875.7931836/B.2015001.1.514e4265hjJNd1&wh_weex=true&wh_biz=tm&wx_navbar_hidden=true&wh_bizStageId=1287&acm=lb-zebra-148799-741251.1003.4.7199337&wx_main_hc=true&scm=1003.4.lb-zebra-148799-741251.OTHER_1_7199337" target="_blank">
+        <a href="https://nianhuo.tmall.com/?spm=875.7931836/B.2015001.1.514e4265hjJNd1&wh_weex=true&wh_biz=tm&wx_navbar_hidden=true&wh_bizStageId=1287&acm=lb-zebra-148799-741251.1003.4.7199337&wx_main_hc=true&scm=1003.4.lb-zebra-148799-741251.OTHER_1_7199337"
+            target="_blank">
             <img src="images/t.jpg" alt="">
         </a>
     </div>
@@ -18,44 +22,70 @@
         <div class="wrapper">
             <div class="header-login">
                 <span>喵，欢迎来天猫</span>
-                <a href="https://login.tmall.com/?redirectURL=https%3A%2F%2Fwww.tmall.com%2F%3Fspm%3Da211oj.13833069.a2226n0.1" target="_top">请登录</a>
+                <a href="https://login.tmall.com/?redirectURL=https%3A%2F%2Fwww.tmall.com%2F%3Fspm%3Da211oj.13833069.a2226n0.1"
+                    target="_top">请登录</a>
                 <a href="https://register.tmall.com/" target="_top">免费注册</a>
             </div>
             <ul class="header-info">
-                <li class="mytaobao">
+                <li class="main-menu">
                     <a href="#">我的淘宝</a>
                     <b></b>
+                    <ul class="sub-menu">
+                        <li><a href="#">已买到的宝贝</a></li>
+                        <li><a href="#">已卖出的宝贝</a></li>
+                    </ul>
                 </li>
-                <li class="cart">
-                    <i class="cart1"></i>
-                    <a href="#">购物车</a>
+                <li class="menu-hover">
+                    <a href="#">
+                        <span class="iconfont icon-gouwuche"></span>
+                        购物车</a>
                 </li>
-                <li class="favorite">
+                <li class="main-menu">
                     <a href="#">收藏夹</a>
                     <b></b>
+                    <ul class="sub-menu">
+                        <li><a href="#">收藏的宝贝</a></li>
+                        <li><a href="#">收藏的店铺</a></li>
+                    </ul>
                 </li>
                 <li class="separator">
                     <span></span>
                 </li>
-                <li class="moblie">
-                    <a href="#">手机版</a>
+                <li class="menu-hover">
+                    <a href="#">
+                        <span class="iconfont icon-shouji header-shouji"></span>
+                        手机版</a>
                 </li>
-                <li class="home">
+                <li class="menu-hover">
                     <a href="#">淘宝网</a>
                 </li>
-                <li class="seller">
+                <li class="main-menu">
                     <a href="#">商家支持</a>
                     <b></b>
                 </li>
-                <li class="sitemap">
-                    <a href="#">网站导航</a>
+                <li class="main-menu">
+                    <a href="#">
+                        <span class="iconfont icon-wangzhandaohang"></span>
+                        网站导航</a>
                     <b></b>
                 </li>
             </ul>
         </div>
-
-
     </div>
-    
+    <div class="search-box wrapper">
+        <a href="#" class="logo">
+            <img src="images/logo.gif" alt="">
+        </a>
+        <div class="search">
+            <input  placeholder="搜索 天猫 商品/品牌/店铺" type="text">
+            <button>搜索</button>
+        </div>
+    </div>
+    <ul class="wrapper nav">
+        <li><img src="" alt=""></li>
+        <li><img src="" alt=""></li>
+
+    </ul>
 </body>
+
 </html>

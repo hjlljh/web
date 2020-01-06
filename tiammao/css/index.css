@@ -16,10 +16,6 @@ body{
     background: #f63a00;
     box-shadow: 0 2px 4px 0 rgba(0,0,0,0.3);
 }
-.wrapper{
-    width: 1230px;
-    margin:0 auto;
-}
 .header-login{
     float: left;
 }
@@ -39,6 +35,9 @@ body{
     padding:0px 14px 0px  10px ;
     line-height: 32px;
 }
+.header-info .main-menu:hover > a{
+    color: #ff0036;
+}
 .header-info > li{
     float: left;
     position: relative;
@@ -49,15 +48,97 @@ body{
     border:3px solid transparent;
     border-top: 3px solid #bbbbbb;
     position: absolute;
-    top: 15px;
+    top: 16px;
     right: 6px;
+    transition: transform 0.3s ease;
+    transform-origin: 50% 25%;
 }
-.header-info li span{
+.header-info .main-menu:hover > b{
+    transform: rotate(180deg);
+}
+.separator{
     border-left: 1px solid #e5e5e5;
     margin: 0 2px 0 5px;
-    height: 14px;
+    height: 17px;
     position: relative;
     top: 8px;
 }
-
+.header-info .sub-menu{ 
+    width: 98px;
+    position: absolute;
+    top:32px;
+    left:0px;
+    background: #fff;
+    display: none;
+}
+.header-info .sub-menu li{
+    height: 36px;
+    line-height: 36px;
+}
+.header-info .main-menu:hover .sub-menu{
+    display: block;
+} 
+.header-info .main-menu:hover{
+    background: #fff;
+    border:0px solid #f2f2f2;
+}
+.header-info .main-menu li a{
+    color: #666;
+}
+.header-info .main-menu li:hover a{
+    color: #ff0036;
+}
+/* 修改图标 */
+.icon-gouwuche{
+    font-size: 11px;
+    font-weight: 200;
+}
+.header-shouji{
+    font-size: 16px;
+}
+.menu-hover:hover a{
+    color: #ffe013;
+}
+.icon-wangzhandaohang{
+    font-size: 13px;
+    font-weight: 900;  
+}
 /* header-info结束 */
+/* search开始 */
+.logo{
+    float: left;
+    position: relative;
+    left:-40px;
+    top:6px;
+}
+.search{
+    float: left;
+    margin-left:30px;
+    width: 625px;
+    height: 35px;
+    border:2px solid #ff0036;
+    margin-top:45px;
+}
+.search input{
+    width: 491px;
+    height: 25px;
+    border:none;
+    outline: none;
+    padding: 5px;
+    font-size: 16px;
+    float: left;
+}
+.search button{
+    width: 124px;
+    height: 35px;
+    background: #ff0036;
+    text-align: center;
+    line-height: 35px;
+    border:none;
+    color: #fff;
+    font-size: 18px;
+    float: left;
+    font-weight: 700;
+    letter-spacing: 4px;
+}
+/* search结束 */
