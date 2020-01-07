@@ -29,6 +29,10 @@ body{
     line-height: 32px;
 }
 /* header-info开始 */
+.header-info > li{
+    float: left;
+    position: relative;
+}
 .header-info li > a{
     color:#fff;
     font-family: "Microsoft YaHei",SimSun,'\5b8b\4f53',sans-serif;
@@ -37,10 +41,6 @@ body{
 }
 .header-info .main-menu:hover > a{
     color: #ff0036;
-}
-.header-info > li{
-    float: left;
-    position: relative;
 }
 .header-info li b{
     width: 0px;
