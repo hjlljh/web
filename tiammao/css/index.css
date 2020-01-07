@@ -1,5 +1,6 @@
 body{
     height: 4000px;
+    background: url(../images/bg.png) center 83px no-repeat;
 }
 .banner{
     background: #fe0036;
@@ -13,7 +14,7 @@ body{
 .header{
     height: 40px;
     border: bottom 1px solid #e5e5e5;
-    background: #f63a00;
+    background:#d91e1c;
     box-shadow: 0 2px 4px 0 rgba(0,0,0,0.3);
 }
 .header-login{
@@ -164,3 +165,109 @@ body{
     font-family: "Microsoft YaHei",SimSun,'\5b8b\4f53',sans-serif;
 }
 /* nav结束 */
+/* 轮播图开始 */
+.slider{
+    position: relative;
+}
+.category{
+    position: absolute;
+    left:0px;
+    top:-33px;
+}
+.slider-box img{
+    width: 1230px;
+    height: 500px;
+}
+
+/* 轮播图结束 */
+/* 商品列表开始 */
+.category .cate-main{
+    background: rgba(0,0,0,.55);
+    position: relative;
+}
+.category .cate-main > li a{
+    color: #fff;
+    font-size: 14px;
+    font-family: "Microsoft YaHei",SimSun,'\5b8b\4f53',sans-serif;
+}
+.category .cate-main > li .nima{
+    color: #fff;
+}
+.category > h3{
+    width: 100px;
+    text-align: center;
+    font-family: "Microsoft YaHei",SimSun,'\5b8b\4f53',sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    height: 34px;
+    line-height: 34px;
+    background: #ff000f;
+    color: #e5e5e5;
+}
+.category .cate-main > li{
+    width: 200px;
+    height: 31.2px;
+    line-height: 31.2px;
+}
+.category .cate-main > li .iconfont{
+    color: rgba(255,255,255,0.5);
+    margin: 0 4px 0 14px;
+    font-size: 18px;
+}
+.category .cate-main > li:hover{
+    background: #fff;
+}
+.category .cate-main > li:hover span,.category .cate-main > li:hover a{
+    color: #ff000f;
+}
+.category .cate-main-nav{
+    background: #fff;
+    position: absolute;
+    left: 200px;
+    top: 0;
+    height: 500px;
+    width: 852px;
+    display: none;
+}
+.cata-list:hover .cate-main-nav{
+    display: block;
+}
+.cate-left{
+    width: 644px;
+    float: left;
+    box-sizing: border-box;
+    padding: 10px 20px;
+}
+.cate-right{
+    width: 207px;
+    float: right;
+    background: #eee;
+    padding: 10px;
+    box-sizing: border-box;
+}
+.cate-left-title{
+    width: 104px;
+    float: left;
+    color:#333;
+    font-size: 14px;
+    font-weight: 600;
+}
+.cate-left-content{
+    width:500px;
+    float: left;
+    border-bottom: 1px dashed #eee;
+    padding-bottom: 7px;
+}
+.cate-left-content a{
+    color:#666;
+    font-size: 14px;
+    margin-left:13px;
+    line-height: 22px;
+    height:22px;
+    float: left;
+}
+
+
+
+
+/* 商品列表结束 */
