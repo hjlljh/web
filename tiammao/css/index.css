@@ -67,7 +67,7 @@ body{
     width: 98px;
     position: absolute;
     top:32px;
-    left:0px;
+    left:-1px;
     background: #fff;
     display: none;
 }
@@ -80,7 +80,7 @@ body{
 } 
 .header-info .main-menu:hover{
     background: #fff;
-    border:0px solid #f2f2f2;
+    border:1px solid #f2f2f2;
 }
 .header-info .main-menu li a{
     color: #666;
@@ -114,10 +114,10 @@ body{
 .search{
     float: left;
     margin-left:30px;
+    margin-top:45px;
     width: 625px;
     height: 35px;
     border:2px solid #ff0036;
-    margin-top:45px;
 }
 .search input{
     width: 491px;
