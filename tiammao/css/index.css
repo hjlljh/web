@@ -258,7 +258,7 @@ body{
     border-bottom: 1px dashed #eee;
     padding-bottom: 7px;
 }
-.cate-left-content a{
+.cate-left-content > a{
     color:#666;
     font-size: 14px;
     margin-left:13px;
@@ -266,8 +266,108 @@ body{
     height:22px;
     float: left;
 }
-
-
-
-
 /* 商品列表结束 */
+/* 年货节开始 */
+.year-good-title{
+    display: block;
+    height: 105px;
+    text-align: center;
+}
+.year-good-title img{
+    width: 300px;
+    height: 65px;
+    margin-top: 20px;
+}
+.year-good-list{
+    width:610px;
+    height:330px;
+}
+.year-good-con{
+    float: left;
+    margin-left: 5px;
+}
+.page-item-first{
+    text-align: center;
+    width:250px;
+    height:330px;
+    background: url(../images/bg1.png);
+    border-radius: 5px ;
+    float: left;
+}
+.page-item-title{
+    font-size: 24px;
+    font-weight: 900;
+    color: #ff520c;
+    padding-top:32px;
+}
+.page-item-desc{
+    font-size: 18px;
+    color: #ff520c;
+    margin-bottom: 20px;
+}
+.page-item-img{
+    width:180px;
+    height:180px;
+}
+.page-bottom-shabow{
+    width: 350px;
+    height: 160px;
+    background: url(../images/bg2.png);
+    float: left;
+    margin: 0 0 10px 10px;
+    border-radius: 5px;
+    padding-top: 25px;
+    padding-left: 28px;
+    box-sizing: border-box;
+    position: relative;
+}
+.page-bottom-img{
+    width: 130px;
+    height: 130px;
+    position: absolute;
+    right: 15px;
+    top: 15px;
+}
+.page-bottom-titlt{
+    font-size: 24px;
+    font-weight: 900;
+    color: #ff0084;
+}
+.page-bottom-desc{
+    font-size: 18px;
+    color: #ff0084;
+    margin-bottom: 20px;
+}
+.page-bot-shabow{
+    width: 350px;
+    height: 160px;
+    background: url(../images/bg3.png);
+    float: left;
+    margin: 0 0 0 10px;
+    border-radius: 5px;
+    padding-top: 25px;
+    padding-left: 28px;
+    box-sizing: border-box;
+    position: relative;
+}
+.page-bot-img{
+    width: 130px;
+    height: 130px;
+    position: absolute;
+    right: 15px;
+    top: 15px;
+}
+.page-bot-title{
+    font-size: 24px;
+    font-weight: 900;
+    color: #009d66;
+}
+.page-bot-desc{
+    font-size: 18px;
+    color: #009d66;
+    margin-bottom: 20px;
+}
+.year-good-con a{
+    text-decoration: none;
+}
+/* 年货节结束 */
