@@ -837,4 +837,28 @@ body{
     width: 30px;
     height: 30px;
 }
-
+.miu-lift{
+    position: fixed;
+    bottom: 50px;
+    left: 295px;
+    z-index: 9999;
+    width: 35px;
+    text-align: center;
+}
+.miu-lift-box{
+    background: rgba(0,0,0,.6);
+    width: 36px;
+    height: 36px;
+    line-height: 30px;
+    text-align: center;
+    margin-top: 1px;
+}
+.miu-lift a{
+    color: #FFF;
+    display: inline-block;
+    vertical-align: middle;
+    line-height: 15px;
+    font-size: 13px;
+    width: 36px;
+    overflow: hidden;
+}
