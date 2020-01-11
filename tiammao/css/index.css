@@ -535,7 +535,7 @@ body{
     left: 186px;
     top: 555px;
 }
-.floor-line-box1:hover img{
+.floor-line-box1:hover .img{
     background: rgba(250, 250, 250, 0.75);
 }
 .floor-line-box2{
@@ -626,10 +626,11 @@ body{
 .floor-line-box3{ 
     background: #fff;
     float: left;
-    width: 235px;
-    height: 301px;
-    margin-left: 13px;
-    margin-bottom: 15px;
+    width: 234px;
+    height: 300px;
+    border: solid 1px transparent;
+    margin-left: 12px;
+    margin-bottom: 14px;
     text-align: center;
 }
 .floor-line-box3 img{
@@ -653,7 +654,7 @@ body{
     margin: 10px auto;
 }
 .floor-line-box3:hover{
-    border-style: solid 1px #FF0036;
+    border: solid 1px #FF0036;
 }
 .data-spm{
     height: 90px;
@@ -685,10 +686,11 @@ body{
 .wonderful-item{
     background: #fff;
     float: left;
-    width: 235px;
-    height: 326px;
-    margin: 0 5.3px;
+    width: 234px;
+    height: 325px;
+    margin: 0 4.3px;
     text-align: center;
+    border: solid 1px transparent;
 }
 .wonderful-item img{
     width: 185px;
@@ -709,6 +711,9 @@ body{
     color: #FF0036;
     line-height: 18px;
     margin: 10px auto;
+}
+.wonderful-item:hover{
+    border: solid 1px #FF0036;
 }
 .tm-end{
     text-align: center;
